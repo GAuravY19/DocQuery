@@ -1,5 +1,6 @@
 flask
 dotenv-python
+gunicorn
 langchain
 langchain-experimental
 langchain-google-genai
