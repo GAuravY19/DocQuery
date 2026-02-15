@@ -1,0 +1,54 @@
+#chat-container {
+    background-color: #ffffff;
+    height: 65vh;
+    overflow-y: auto;
+}
+
+.chat-message {
+    max-width: 75%;
+    padding: 12px 15px;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    margin: 10px 0px;
+}
+
+.bot-message {
+    background-color: #f1f3f5;
+    color: #000;
+    margin-right: auto;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.user-message {
+    background-color: #d6d8db;
+    color: #000;
+    margin-left: auto;
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#pdfform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* #pdf-input-area{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+} */
+
+#pdf-input-area{
+    margin-top: -3%;
+}
+
+.upload{
+    padding-top: 10px;
+}

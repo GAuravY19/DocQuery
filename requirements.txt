@@ -1,2 +1,13 @@
 flask
 dotenv-python
+langchain
+langchain-experimental
+langchain-google-genai
+langchain-community
+faiss-cpu
+tiktoken
+google-genai
+pypdf
+sentence-transformers
+langchain-huggingface
+
