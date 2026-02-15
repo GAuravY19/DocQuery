@@ -5,9 +5,7 @@ __pycache__/
 
 # docquery/storage/
 # docquery/storage
-
-storage/
-storage/**
+docquery/storage
 
 # C extensions
 *.so
