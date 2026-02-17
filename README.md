@@ -6,20 +6,20 @@ The system is designed for **students and learners** who want to interactively e
 
 ---
 
-## 🚀 Features
+## Features
 
-* 📤 Upload any PDF document (lecture notes, textbooks, research papers)
-* 🔍 Ask questions and get answers **strictly based on the uploaded PDF**
-* 🧠 Uses **RAG (Retrieval-Augmented Generation)** for high accuracy
-* 📚 Handles **large PDFs (1000+ pages)** efficiently
-* 💬 Chat-style interface similar to ChatGPT
-* 🧩 Semantic chunking + vector search
-* 🗂 Vector stores saved locally and reused across requests
-* 🔐 Session-based isolation (each user gets their own document context)
+* Upload any PDF document (lecture notes, textbooks, research papers)
+* Ask questions and get answers **strictly based on the uploaded PDF**
+* Uses **RAG (Retrieval-Augmented Generation)** for high accuracy
+* Handles **large PDFs (1000+ pages)** efficiently
+* Chat-style interface similar to ChatGPT
+* Semantic chunking + vector search
+* Vector stores saved locally and reused across requests
+* Session-based isolation (each user gets their own document context)
 
 ---
 
-## 🧠 How DocQuery Works (High-Level)
+## How DocQuery Works (High-Level)
 
 ```
 PDF Upload
@@ -47,7 +47,7 @@ This approach ensures:
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Backend
 
@@ -65,7 +65,7 @@ This approach ensures:
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### 1️⃣ Clone the Repository
 
@@ -119,7 +119,7 @@ http://127.0.0.1:5000
 
 ---
 
-## 💬 Chat Workflow
+## Chat Workflow
 
 1. User uploads a PDF
 2. Backend extracts text and builds vector store
@@ -134,7 +134,7 @@ http://127.0.0.1:5000
 
 ---
 
-## 🧩 RAG Design Choices
+## RAG Design Choices
 
 ### Chunking Strategy
 
@@ -149,7 +149,7 @@ http://127.0.0.1:5000
 
 ---
 
-## 🔐 Session Handling
+## Session Handling
 
 * PDF path and vector store path stored in Flask session
 * Each user session is isolated
@@ -157,7 +157,7 @@ http://127.0.0.1:5000
 
 ---
 
-## 🚫 Known Limitations (Current)
+## Known Limitations (Current)
 
 * Single PDF per session
 * Local vector storage (not cloud-based yet)
@@ -165,18 +165,18 @@ http://127.0.0.1:5000
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
-* 🔗 External vector databases (Pinecone / Qdrant)
-* 📑 Source citations with page numbers
-* 🔄 Multi-PDF support
-* ⚡ Streaming responses
-* ☁️ Cloud deployment
-* 👤 Authentication & user profiles
+* External vector databases (Pinecone / Qdrant)
+* Source citations with page numbers
+* Multi-PDF support
+* Streaming responses
+* Cloud deployment
+* Authentication & user profiles
 
 ---
 
-## 🎯 Who Is This Project For?
+## Who Is This Project For?
 
 * Students preparing for exams
 * Learners reading large PDFs
@@ -185,7 +185,7 @@ http://127.0.0.1:5000
 
 ---
 
-## 🧠 Key Learning Outcomes
+## Key Learning Outcomes
 
 * RAG system design
 * Vector database lifecycle management
